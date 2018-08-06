@@ -49,6 +49,10 @@
       <HintPath>..\packages\SC.Sitecore.EmailCampaign.Cm.9.0.2\lib\Sitecore.EmailCampaign.Cm.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.EmailCampaign.Model.Web, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.EmailCampaign.Model.Web.9.0.2\lib\Sitecore.EmailCampaign.Model.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sitecore.ExM.Framework, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SC.Sitecore.ExM.Framework.9.0.2\lib\Sitecore.ExM.Framework.dll</HintPath>
       <Private>False</Private>
@@ -64,6 +68,7 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmailCampaign\Cm\Commands\TaskCommands\CleanConfirmationIDs.cs" />
     <Compile Include="EmailCampaign\Cm\SubscriptionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
