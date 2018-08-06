@@ -24,9 +24,6 @@
 
         }
 
-      [UsedImplicitly]
-        public double ConfirmationPeriod { get; set; }
-
         /// <summary>
         /// Removes old nodes from the dbo.Properties table
         /// </summary>
